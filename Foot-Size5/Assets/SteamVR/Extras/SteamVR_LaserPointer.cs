@@ -15,9 +15,8 @@ namespace Valve.VR.Extras
         public string activeTarget;
         public Button m_button;
 		public int trial = 0, trial2 = 1;
-		public AudioSource audioClip;
 
-
+       
         //public SteamVR_Action_Boolean interactWithUI = SteamVR_Input.__actions_default_in_InteractUI;
         public SteamVR_Action_Boolean interactWithUI = SteamVR_Input.GetBooleanAction("InteractUI");
 
@@ -39,7 +38,7 @@ namespace Valve.VR.Extras
 
         private void Start()
         {
-			//audioClip = GetComponent<AudioSource>();
+
             if (pose == null)
                 pose = this.GetComponent<SteamVR_Behaviour_Pose>();
             if (pose == null)
@@ -115,6 +114,8 @@ namespace Valve.VR.Extras
             RaycastHit hit;
             bool bHit = Physics.Raycast(raycast, out hit);
 
+            
+
             if (previousContact && previousContact != hit.transform)
             {
                 PointerEventArgs args = new PointerEventArgs();
@@ -176,10 +177,6 @@ namespace Valve.VR.Extras
 
                 if (hit.collider.gameObject.tag == "Button")
                 {
-                    var colors = m_button.GetComponent<Button>().colors;
-                    colors.normalColor = Color.green;
-                    m_button.GetComponent<Button>().colors = colors;
-
                     SceneManager.LoadScene("FittingRoomShuffled");
                 }
 
@@ -188,7 +185,8 @@ namespace Valve.VR.Extras
 				Scene currentScene = SceneManager.GetActiveScene();
 				if (currentScene.name == "FittingRoomShuffled")
 				{
-					if (hit.collider.gameObject.tag == "Shoe" && trial2 == 2 )
+                   
+                    if (hit.collider.gameObject.tag == "Shoe" && trial2 == 2 )
 					{
 						trial2 += 1;
 						if(trial2 == 3)
@@ -214,8 +212,8 @@ namespace Valve.VR.Extras
 
        }
 
-	
-  
+ 
+
 
         void WriteString()
         {

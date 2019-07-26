@@ -5,27 +5,36 @@ using UnityEngine.SceneManagement;
 
 public class ChangeSizes : MonoBehaviour
 {
-    float size;
+    public static float size;
     public Transform shoeTransform;
 	Vector3 scale = new Vector3();
+
 
 
     void OnEnable()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
-        size = PlayerPrefs.GetFloat("size");
     }
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-		
-		size = PlayerPrefs.GetFloat("size");
-        float newVal = (float)(0.6848 * 0.5 * size / 100);
+        size = PlayerPrefs.GetFloat("size");
+        float increment = (float) 0.5;
+        float newVal;
+        
         foreach (Transform child in shoeTransform)
         {
+            newVal = (float)(0.6848 * increment * size / 100);
             scale.Set(newVal, newVal, newVal);
             child.localScale = scale;
-            newVal += (float)0.1;
+            increment += (float) 0.1;
+            
         }
     }
+
+    void OnDisable()
+    {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
 }
