@@ -168,7 +168,7 @@ namespace Valve.VR.Extras
 					trial += 1;
 					if(trial == 2)
 					{
-                    	activeTarget = "Trial 1: " + hit.collider.gameObject.transform.name;
+                    	activeTarget = "Trial 1: " + hit.collider.gameObject.transform.name + " cm";
 						WriteString();
                         hit.collider.gameObject.SetActive (false);
 					}
@@ -192,7 +192,7 @@ namespace Valve.VR.Extras
 						if(trial2 == 3)
 						{	
 							activeTarget = "Trial 2: " + hit.collider.gameObject.transform.name 
-								+ "\n";
+								+ " cm \n";
 							WriteString();
                             hit.collider.gameObject.SetActive(false);
 						

@@ -27,6 +27,7 @@ public class ChangeSizes : MonoBehaviour
             newVal = (float)(0.6848 * increment * size / 100);
             scale.Set(newVal, newVal, newVal);
             child.localScale = scale;
+            child.name = (newVal * 100).ToString();
             increment += (float) 0.1;
             
         }
