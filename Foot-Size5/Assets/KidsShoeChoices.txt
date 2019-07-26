@@ -1,0 +1,108 @@
+Subject ID: 
+Gender: 
+Age: 
+Foot Size (cm): 90
+Subject ID: 
+Gender: 
+Age: 
+Foot Size (cm): 90
+Subject ID: 
+Gender: 
+Age: 
+Foot Size (cm): 90
+Subject ID: 
+Gender: 
+Age: 
+Foot Size (cm): 90
+Subject ID: 
+Gender: 
+Age: 
+Foot Size (cm): 90
+Subject ID: 
+Gender: 
+Age: 
+Foot Size (cm): 90
+Subject ID: 
+Gender: 
+Age: 
+Foot Size (cm): 90
+Subject ID: 
+Gender: 
+Age: 
+Foot Size (cm): 90
+Subject ID: 
+Gender: 
+Age: 
+Foot Size (cm): 90
+Subject ID: 
+Gender: 
+Age: 
+Foot Size (cm): 90
+Subject ID: 
+Gender: 
+Age: 
+Foot Size (cm): 90
+Subject ID: 
+Gender: 
+Age: 
+Foot Size (cm): 100
+Subject ID: 
+Gender: 
+Age: 
+Foot Size (cm): 0
+Subject ID: 
+Gender: 
+Age: 
+Foot Size (cm): 20
+Subject ID: 
+Gender: 
+Age: 
+Foot Size (cm): 100
+Subject ID: 
+Gender: 
+Age: 
+Foot Size (cm): 20
+Subject ID: 
+Gender: 
+Age: 
+Foot Size (cm): 30
+Subject ID: 
+Gender: 
+Age: 
+Foot Size (cm): 30
+Subject ID: 
+Gender: 
+Age: 
+Foot Size (cm): 40
+Subject ID: 
+Gender: 
+Age: 
+Foot Size (cm): 90
+Subject ID: 
+Gender: 
+Age: 
+Foot Size (cm): 1
+Subject ID: 
+Gender: 
+Age: 
+Foot Size (cm): 90
+Subject ID: 
+Gender: 
+Age: 
+Foot Size (cm): 50
+Subject ID: 
+Gender: 
+Age: 
+Foot Size (cm): 1
+Subject ID: 
+Gender: 
+Age: 
+Foot Size (cm): 50
+Subject ID: 
+Gender: 
+Age: 
+Foot Size (cm): 90
+Subject ID: 
+Gender: 
+Age: 
+Foot Size (cm): 1
