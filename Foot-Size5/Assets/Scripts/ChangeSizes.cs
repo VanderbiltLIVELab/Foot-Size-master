@@ -24,11 +24,18 @@ public class ChangeSizes : MonoBehaviour
         
         foreach (Transform child in shoeTransform)
         {
+            //Scaling
             newVal = (float)(0.6848 * increment * size / 100);
             scale.Set(newVal, newVal, newVal);
             child.localScale = scale;
             child.name = (newVal * 100).ToString();
             increment += (float) 0.1;
+
+            //Positioning
+            var positioning = child.position;
+            float height = child.localScale.y;
+            positioning.y = GameObject.FindWithTag("Floor").transform.position.y + (height/2);
+            child.position = positioning;
             
         }
     }
