@@ -10,8 +10,6 @@ public class EnterRoom : MonoBehaviour
     public InputField footSize;
     public static float size;
 
-
-
     public void ChangeScene(string scene)
     {   
         size = float.Parse(footSize.text);
@@ -19,6 +17,5 @@ public class EnterRoom : MonoBehaviour
         PlayerPrefs.Save();
 		SceneManager.LoadScene(scene);
     }
-
   
 }
