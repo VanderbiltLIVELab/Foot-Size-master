@@ -1,4 +1,4 @@
-# Virtual Reality Spatial Perception of Avatars Study
+# Children's Perception of Gap Affordances in Virtual Reality 
 
 ### Summary
 This project is focused around finding age-related differences in how children and adults perceive space in virtual reality. Currently, there is very little information on how children perceive and process virtual environments. In the age range where children's cognitive, physical, and spatial reasoning skills are easily shapeable and rapidly developing, a key question to examine is how these changes affect their performance in and utility of virtual environments. This environment explores how children reason about virtual spaces in comparison to adults.
